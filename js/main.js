@@ -97,12 +97,6 @@ $(function(){
         $('html, body').css('overflow-y','visible');
     });
 
-    //스크롤 막기
-	    $('html, body').on('scroll touchmove mousewheel', function(e) {
-		e.preventDefault();
-		e.stopPropagation();
-		return false;
-	});
 
     
    

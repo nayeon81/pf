@@ -864,6 +864,8 @@ a.btn {
 }
 
 .btn-close {
+    width:30px;
+    height:30px;
   font-size: 28px;
   display: block;
   float: right;
@@ -1245,8 +1247,8 @@ a.btn {
     }
     .popup .close {
         position: absolute;
-        right: 13vw;
-        top: 26.5vw;
+        right: 12vw;
+        top: 21vw;
         width: 2.8vw;
     }
     .graphic::-webkit-scrollbar {
@@ -1311,7 +1313,7 @@ a.btn {
 
     .modal {
     width: 85vw;
-    height: 75vw;
+    height: 73vw;
     display: block;
     margin: 50% 0 0 -300px;
     position: relative;
@@ -1324,13 +1326,13 @@ a.btn {
     .content .buttons .renewal_btn {
         color:  #e2525c;
     }
+    .head {
+        padding: 2vw 2vw;
+    }
     .good-job {
     color: #e2525c;
     }
-    .good-job h2 {
-        margin-top: 20vw;
-    }
-
+    
     #icon {
         display: none;
 

@@ -1,22 +1,7 @@
 $(function(){
     var decoLeft=0;
     var menuWidth=0;
-
-    var laptopsInner = document.querySelectorAll('div.laptop-inner');
-
-    for (const laptopInner of laptopsInner) {
-        laptopInner.addEventListener('mouseover', (e) => {
-            var imageHeight = e.target.offsetHeight;
-            var laptopHeight = e.currentTarget.offsetHeight;
-            var scrollHeight = imageHeight-laptopHeight;
-            console.log(`${imageHeight} | ${laptopHeight} | ${scrollHeight}`);  
-            e.target.style.transform = "translate3d(0, -"+scrollHeight+"px, 0)";
-        });
-        laptopInner.addEventListener('mouseout', (e) => {
-            e.target.style.transform = "translate3d(0, 0, 0)";
-        });
-        
-    }
+    
     //fullpage
     $('#fullpage').fullpage({
         //options here
@@ -78,24 +63,27 @@ $(function(){
     $('.popup').hide();
     $('.tab div').click(function(e){
         e.preventDefault();
-        //클릭한 이미지의 인덱스 번호를 img_num에 저장
         img_num=$(this).index();
-        //클릭한 이미지의 a 태그의 href 속성을 img_attr변수에 저장
         var img_attr=$(this).find('a').attr('href');
         var img_addr='<img src="'+img_attr+'">'
         $('.graphic').empty();
         $('.graphic').append(img_addr);
         $('.popup').show();
-        $('html, body').css('overflow-y','hidden');
-
-        
-	
+        //$('html, body').css('overflow-y','hidden');
+        $.fn.fullpage.setAllowScrolling(false);
+        $.fn.fullpage.setKeyboardScrolling(false);
+        	
     });
     $('.popup .close').click(function(e){
         e.preventDefault();
         $('.popup').hide();
-        $('html, body').css('overflow-y','visible');
+        //$('html, body').css('overflow-y','visible');
+        $.fn.fullpage.setAllowScrolling(true);
+        $.fn.fullpage.setKeyboardScrolling(true);
     });
+
+    
+	
 
 
     

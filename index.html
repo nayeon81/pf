@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <title>김나연 포트폴리오</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="img/logo.png" type="imgs/icon">
+
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <script src="js/jquery-3.6.0.js"></script>   
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <!-- 로고 바꾸기 -->
+                <img src="img/logo.png" alt="로고">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#PROFILE">PROFILE</a></li>
+                <li><a href="#WEB">WEB</a></li>
+                <li><a href="#DESIGN">DESIGN</a></li>
+                <li><a href="#CONTACT">CONTACT US</a></li>
+            </ul>
+            <div class="deco"></div>
+            <div class="close_btn">
+                <a href="#">
+                    <img src="img/close.png" alt="닫기 버튼">
+                </a>
+            </div>
+        </nav>
+        <!-- 햄버거 메뉴 -->
+        <div class="menu_icon">
+            <a href="#">
+                <img src="img/menu_icon.png" alt="메뉴버튼">
+            </a>
+        </div>
+    </header>
+    <div class="wrap" id="fullpage">
+        <section class="section visual">
+            <div class="product">
+                <div class="product_left">
+                    <img src="img/icon3.png" alt="배경">
+                    <div class="product_img">
+                        <img src="img/icon1.png" alt="꽃">
+                    </div>
+                </div>
+                <div class="product_right">
+                    <h1><span>N</span><span>a</span><span>Y</span><span>e</span><span>o</span><span>n</span><br><span>W</span><span>o</span><span>r</span><span>l</span><span>d</span><span>!</span></h1>
+                </div>
+            </div>
+        </section>
+        <section class="section banner">
+            <h1>PROFILE</h1>
+            <div class="contents">
+                <div class="me">
+                </div>
+                <div class="skill">
+                    <h3>SKILL</h3>
+                    <div>
+                        <div class="skillbar clearfix " data-percent="50%">
+                            <div class="skillbar-title" style="background: #d35400;"><span>PS</span></div>
+                            <div class="skillbar-bar" style="background: #e67e22;"></div>
+                            <div class="skill-bar-percent Count">50</div>
+                        </div> <!-- End Skill Bar -->
+                        
+                        <div class="skillbar clearfix " data-percent="50%">
+                            <div class="skillbar-title" style="background: #2980b9;"><span>Illust</span></div>
+                            <div class="skillbar-bar" style="background: #3498db;"></div>
+                            <div class="skill-bar-percent Count">50</div>
+                        </div> <!-- End Skill Bar -->
+                        
+                        <div class="skillbar clearfix " data-percent="50%">
+                            <div class="skillbar-title" style="background: #46465e;"><span>HTML5</span></div>
+                            <div class="skillbar-bar" style="background: #5a68a5;"></div>
+                            <div class="skill-bar-percent Count">50</div>
+                        </div> <!-- End Skill Bar --> 
+
+                        <div class="skillbar clearfix " data-percent="50%">
+                            <div class="skillbar-title" style="background: #27ae60;"><span>CSS3</span></div>
+                            <div class="skillbar-bar" style="background: #2ecc71;"></div>
+                            <div class="skill-bar-percent Single Count">50</div>
+                        </div> <!-- End Skill Bar -->
+                        
+                        <div class="skillbar clearfix " data-percent="50%">
+                            <div class="skillbar-title" style="background: #124e8c;"><span>JS</span></div>
+                            <div class="skillbar-bar" style="background: #4288d0;"></div>
+                            <div class="skill-bar-percent Count">50</div>
+                        </div> <!-- End Skill Bar -->  
+                    </div>
+                </div>
+                <div class="school">
+                    <div class="txt">
+                        <p>김나연<br>
+                        2000.08.01<br>
+                        pc414067@naver.com</p>
+                    </div>
+                </div>
+                <div class="license">
+                    <div class="txt">
+                        <ul>
+                            <li>
+                                <p>자격증</p>
+                                <br>
+                                <span>dd</span>
+                            </li>
+                            <br>
+                            <li>
+                                <p>수료</p>
+                                <br>
+                                <span>UI/UX 웹디자인 & 웹퍼블리셔 과정<br>
+                                    교육기간 : 2022.02 ~ 2022 07 </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section class="section six_tab">
+            <h1>WEB PORTFOLIO</h1>
+            <div class="w1520">
+                <div class="star">
+                    <img src="img/icon5.png" alt="별">
+                </div>
+                <div class="wrapper">
+                    <div class="laptop" id="laptop">
+                        <img src="img/a2.png" alt="laptop">
+                      <div class="laptop-inner" id="laptop-inner-1">
+                        <img src="img/web1.jpg" alt="inner-content">
+                      </div>
+                    </div>
+                  </div>
+                <div class="des">
+                    <h1><i>1</i>리뉴얼 홈페이지 - PC</h1>
+                    <div class="detail">
+                        <ul>
+                            <li>
+                               <p class="title"><span>주</span><span>제</span></p> :&nbsp;&nbsp;사봉코리아
+                            </li>
+                            <li>
+                                <p class="title"><span>벤</span><span>치</span><span>마</span><span>킹</span></p> :&nbsp;&nbsp;
+                                    푸르밀(http://www.purmil.co.kr) <br>
+                            </li>
+                            <li>
+                                <p class="title"><span>키</span><span>워</span><span>드</span></p> :&nbsp;&nbsp;
+                                     #페미닌&nbsp;&nbsp;#모던한&nbsp;&nbsp;#라벤더
+                            </li>
+                            <li>
+                                <p class="title"><span>특</span><span>징</span></p>  :&nbsp;&nbsp;
+                                     PC버전 레이아웃을 구성
+                            </li>
+                            <li>
+                                <p class="title"><span>주</span><span>조</span><span>색</span></p> :&nbsp;&nbsp; 
+                                <b class="ball1"></b>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <b class="ball2"></b>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <b class="ball3"></b>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="buttons">
+                        <button class="renewal_btn" onclick="window.open('http://nayeon81.dothome.co.kr/sabon')">리뉴얼 보기</button>
+                        <button class="origin_btn" onclick="window.open('http://www.purmil.co.kr/')">오리지널 보기</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section class="section hive">
+            <div class="w1520">
+                <div class="des">
+                    <h1><i>2</i>리뉴얼 홈페이지 - PC</h1>
+                    <div class="detail">
+                        <ul>
+                            <li>
+                                <p class="title"><span>주</span><span>제</span></p> :&nbsp;&nbsp;입생로랑(패션)
+                            </li>
+                            <li>
+                                <p class="title"><span>벤</span><span>치</span><span>마</span><span>킹</span></p> :&nbsp;&nbsp;
+                                에이스침대<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                (https://www.acebed.com)
+                            </li>
+                            <li>
+                                <p class="title"><span>키</span><span>워</span><span>드</span></p>  :&nbsp;&nbsp;
+                                #모던한&nbsp;&nbsp;#편안한&nbsp;&nbsp;#시크한
+                            </li>
+                            <li>
+                                <p class="title"><span>특</span><span>징</span></p>  :&nbsp;&nbsp;
+                                 swiper 플러그인을 사용
+                            </li>
+                            <li>
+                                <p class="title"><span>주</span><span>조</span><span>색</span></p> :&nbsp;&nbsp;
+                                <b class="ball4"></b>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <b class="ball5"></b>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <b class="ball6"></b>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="buttons">
+                        <button class="renewal_btn" onclick="window.open('http://nayeon81.dothome.co.kr/ysl')">리뉴얼 보기</button>
+                        <button class="origin_btn" onclick="window.open('https://www.acebed.com/main/index.do')">오리지널 보기</button>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="laptop" id="laptop">
+                        <img src="img/a2.png" alt="laptop">
+                      <div class="laptop-inner" id="laptop-inner-1">
+                        <img src="img/web2.jpg" alt="inner-content">
+                      </div>
+                      <!-- laptop inner div end -->
+                    </div>
+                    <!-- laptop div end -->
+                  </div>
+                  <!-- wrapper end-->
+            </div>
+        </section>
+        <section class="section photo">
+            <div class="w1520">
+                <div class="wrapper">
+                    <div class="laptop" id="laptop">
+                        <img src="img/a2.png" alt="laptop">
+                      <div class="laptop-inner" id="laptop-inner-1">
+                        <img src="img/web3-1.jpg" alt="inner-content">
+                      </div>
+                    </div>
+                  </div>
+                <div class="des">
+                    <h1><i>3</i>리뉴얼 홈페이지 - PC, MOBILE</h1>
+                    <div class="detail">
+                        <ul>
+                            <li>
+                                <p class="title"><span>주</span><span>제</span></p> :&nbsp;&nbsp;파스쿠찌
+                            </li>
+                            <li>
+                                <p class="title"><span>벤</span><span>치</span><span>마</span><span>킹</span></p> :&nbsp;&nbsp;
+                                뮤고박스<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                (http://www.mugobox.com)
+                            </li>
+                            <li>
+                                <p class="title"><span>키</span><span>워</span><span>드</span></p>  :&nbsp;&nbsp;
+                                #파스텔&nbsp;&nbsp;#통통튀는&nbsp;&nbsp;#활동적인
+                            </li>
+                            <li>
+                                <p class="title"><span>특</span><span>징</span></p>  :&nbsp;&nbsp;
+                                뷰포트, 미디어쿼리, Flexible 기능 사용.<br>
+                                Fullpage와 swiper 플러그인을 사용함.
+                            </li>
+                            <li>
+                                <p class="title"><span>주</span><span>조</span><span>색</span></p> :&nbsp;&nbsp; 
+                                <b class="ball7"></b>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <b class="ball8"></b>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <b class="ball9"></b>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="buttons">
+                        <button class="renewal_btn" onclick="window.open('http://nayeon81.dothome.co.kr/psc')">리뉴얼 보기</button>
+                        <button class="mobile_btn" onclick="window.open('http://nayeon81.dothome.co.kr/psc','pagename','resizable,height=800,width=380'); return false;">모바일 보기</button>
+                        <button class="origin_btn" onclick="window.open('http://www.mugobox.com')">오리지널 보기</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section event">
+            <div class="w1520">
+                <div class="des">
+                    <h1><i>4</i>리뉴얼 홈페이지 - MOBILE</h1>
+                    <div class="detail">
+                        <ul>
+                            <li>
+                                <p class="title"><span>주</span><span>제</span></p> :&nbsp;&nbsp;롤링파스타
+                            </li>
+                            <li>
+                                <p class="title"><span>벤</span><span>치</span><span>마</span><span>킹</span></p> :&nbsp;&nbsp;
+                                포메인(https://www.phomein.com)
+                            </li>
+                            <li>
+                                <p class="title"><span>키</span><span>워</span><span>드</span></p>  :&nbsp;&nbsp;
+                                #어두운&nbsp;&nbsp;#깔끔한 
+                            </li>
+                            <li>
+                                <p class="title"><span>특</span><span>징</span></p>  :&nbsp;&nbsp;
+                                뷰포트, 미디어쿼리, Flexible 기능 사용.
+                            </li>
+                            <li>
+                                <p class="title">
+                                    <span>주</span>
+                                    <span>조</span>
+                                    <span>색</span>
+                                </p> :&nbsp;&nbsp;
+                                <b class="ball10"></b>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <b class="ball11"></b>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <b class="ball12"></b>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="buttons">
+                        <button class="mobile_btn" onclick="window.open('http://nayeon81.dothome.co.kr/rp/','pagename','resizable,height=800,width=480'); return false;">모바일 보기</button>
+                        <button class="origin_btn" onclick="window.open('https://www.phomein.com/brand/main/main.do')">오리지널 보기</button>
+                    </div>
+                </div>
+                <div class="wrapper_phone">
+                    <div class="laptop" id="laptop">
+                        <!-- <img src="img/a3.png" alt="laptop"> -->
+                      <div class="laptop-inner" id="laptop-inner-1">
+                        <img src="img/web4-phone1.png" alt="inner-content">
+                      </div>
+                      <!-- laptop inner div end -->
+                    </div>
+                    <!-- laptop div end-->
+                </div> 
+                    
+            </div>
+        </section>
+        
+        <section class="section line_tab">
+            
+            <div class="w1200">
+                <h1>DESIGN</h1>
+                <div class="contact">
+                    <div class="space_left">
+                        <!-- <img src="img/icon9.png" alt="행성"> -->
+                    </div>
+                    <div class="star_right">
+                        <img src="img/icon10.png" alt="행성2">
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="tab_1">
+                        <a href="img/popup_1-2.jpg">
+                            <!-- 아이콘 이미지 바꿔야 함 -->
+                            <img src="img/click4.png" alt="상세페이지">
+                        </a>
+                        <p>상세페이지</p>
+                    </div>
+                    <div class="tab_2">
+                        <a href="img/popup_2-2.jpg">
+                            <img src="img/click4.png" alt="팝업 배너">
+                        </a>
+                        <p>팝업 배너</p>
+                    </div>
+                    <div class="tab_3">
+                        <a href="img/popup_3-2.jpg">
+                            <img src="img/click4.png" alt="이벤트페이지">
+                        </a>
+                        <p>이벤트페이지</p>
+                    </div>
+                    <div class="tab_4">
+                        <a href="img/popup_4-2.jpg">
+                            <img src="img/click4.png" alt="포스터">
+                        </a>
+                        <p>포스터</p>
+                    </div>
+                    <div class="tab_5">
+                        <a href="img/popup_5.jpg">
+                            <img src="img/click4.png" alt="북커버">
+                        </a>
+                        <p>북커버</p>
+                    </div>
+                    <div class="tab_6">
+                        <a href="img/popup_6-2.jpg">
+                            <!-- 리플렛 추가해서 넣기 -->
+                            <img src="img/click4.png" alt="리플렛">
+                        </a>
+                        <p>리플렛</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section store">
+            <div class="cloud">
+                <img src="img/icon2.png" alt="">
+            </div>
+            <h1>CONTACT US</h1>
+            <div class="contact">
+                <div class="star_left">
+                    <img src="img/icon11.png" alt="별">
+                </div>
+                <div class="heart_right">
+                    <img src="img/icon12.png" alt="하트">
+                </div>
+            </div>
+                <!-- Button -->
+                <div class="page-wrapper">
+                    <a class="btn trigger" href="#">click me</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal-wrapper">
+                    <div class="modal">
+                    <div class="head">
+                        <a class="btn-close trigger" href="#">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="good-job">
+                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                            <h2>THANK YOU!</h2>
+                            <div class="con_txt">
+                                <P>이메일<br>pc414067@naver.com</P>
+                                <div class="buttons">
+                                    <button class="renewal_btn" onclick="window.open('https://open.kakao.com/o/sHCLMIoe')">카카오톡<br>(클릭 시 이동)</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <div id="icon"></div>
+    <!-- popup -->
+    <div class="popup">
+        <div class="container">
+            <dic class="graphic">
+                
+            </dic>
+            <div class="txt">
+                    
+            </div>
+        </div>
+        <div class="close">
+            <a href="#">
+                <img src="img/close2.png" alt="닫기">
+            </a>
+        </div>
+    </div>
+    <script>
+        var laptopsInner = document.querySelectorAll('div.laptop-inner');
+
+        for (const laptopInner of laptopsInner) {
+            laptopInner.addEventListener('mouseover', (e) => {
+                var imageHeight = e.target.offsetHeight;
+                var laptopHeight = e.currentTarget.offsetHeight;
+                var scrollHeight = imageHeight-laptopHeight;
+                console.log(`${imageHeight} | ${laptopHeight} | ${scrollHeight}`);  
+                e.target.style.transform = "translate3d(0, -"+scrollHeight+"px, 0)";
+            });
+            laptopInner.addEventListener('mouseout', (e) => {
+                e.target.style.transform = "translate3d(0, 0, 0)";
+            });
+        }
+    </script>    
+    <script>
+        $(function(){
+            $(window).resize(function () {
+                location.reload();
+            });
+        });        
+    </script>
+</body>
+</html>

@@ -1390,14 +1390,17 @@ a.btn {
     .line_tab {
         height: 80vh;
     }
+    .line_tab .tab {
+        width: 60vw;
+    }
     .line_tab .tab p {
         font-size: 4vw;
     }
     .line_tab .tab img {
         float: left;
-        width: 23vw;
-        height: 23vw;
-        margin: 10px;
+        width: 10vw;
+        height: 10vw;
+        margin: 5px;
         overflow: hidden;
     }
     .line_tab .contact .star_right {

@@ -1478,4 +1478,20 @@ a.btn {
     .modal {
     left: 85%;
     }
+
+    .content h2 {
+        font-size: 8vw;
+    }
+    .good-job .fa-thumbs-o-up {
+        font-size: 11vw;
+    }
+    .content p {
+        font-size: 3vw;
+    }
+    .content .buttons .renewal_btn {
+        font-size: 3vw;
+    }
+    .good-job h2 {
+        margin-top: 6vw;
+    }
 }

@@ -1133,7 +1133,21 @@ a.btn {
         margin-top: 4vh;
     }
     .skillbar {
+        height:28px;
         margin-bottom: 3vw;
+    }
+    .skillbar-title {
+        height:28px;
+    }
+    .skillbar-title span {
+        height:28px;
+    }
+    .skillbar-bar {
+        height:28px;
+    }
+    .skill-bar-percent {
+        height:28px;
+        line-height:28px;
     }
     .banner .contents .school {
         width: 30%;
@@ -1390,8 +1404,12 @@ a.btn {
     .line_tab {
         height: 80vh;
     }
+    .line_tab .w1200 {
+        width:80%;
+    }
     .line_tab .tab {
-        width: 60vw;
+        width: 70vw;
+        margin:0 auto;
     }
     .line_tab .tab p {
         font-size: 4vw;
@@ -1410,7 +1428,7 @@ a.btn {
         margin-top: -15vw;
         margin-left: 52vw;
     }
-
+    
 
     /* 섹션 컨텍 */
 

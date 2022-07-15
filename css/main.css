@@ -1446,3 +1446,36 @@ a.btn {
     left: 91%;
     }
 }
+
+/* 모바일 : max-width:390px */
+@media screen and (max-width:390px){
+    
+   
+    /* 섹션 디자인 */
+
+    .line_tab .tab p {
+        font-size: 4vw;
+    }
+    .line_tab .tab img {
+        width: 24vw;
+        height: 24vw;
+        margin: 10px;
+    }
+   
+
+
+    /* 섹션 컨텍 */
+
+    .store .contact .heart_right img {
+        width: 250px;
+    }
+    
+    .store .contact .heart_right {
+        width: 38%;
+        margin-top: 60vw;
+        margin-left: 55vw;
+    }
+    .modal {
+    left: 85%;
+    }
+}

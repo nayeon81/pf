@@ -1294,6 +1294,9 @@ a.btn {
         margin-left: 60vw;
     }
 
+    .head {
+        height: 40px;
+    }
     .modal-wrapper {
     width: 100%;
     height: 100%;
@@ -1317,7 +1320,7 @@ a.btn {
     display: block;
     margin: 50% 0 0 -300px;
     position: relative;
-    top: 50%; 
+    top: 55%; 
     left: 70%;
     background: #fff;
     opacity: 0;
@@ -1336,5 +1339,110 @@ a.btn {
     #icon {
         display: none;
 
+    }
+}
+
+
+
+
+
+
+/* 모바일 : max-width:360px */
+@media screen and (max-width:360px){
+    
+    /* 섹션 프로필 */
+
+    .banner h1 {
+        margin-top: 16vw;
+    }
+    .banner .contents .skill {
+        height: auto;
+        margin-left: 5vw;
+    }
+    .banner .contents .skill {
+        margin-top: 3vw;
+    }
+
+
+    /* 섹션 웹 */
+
+    section .des h1 {
+        font-size: 5vw;
+    }
+    section .des h1 i {
+        padding: 0.5vw 2vw;
+        margin-right: 2vw;
+    }
+    section .des .detail {
+        padding-left: 7vw;
+    }
+    section .des .detail ul li {
+        font-size: 3.4vw;
+        margin: 0;
+    }
+    .six_tab h1 {
+        margin-bottom:12vw;
+    }
+
+
+    /* 섹션 디자인 */
+
+    .line_tab {
+        height: 80vh;
+    }
+    .line_tab .tab p {
+        font-size: 4vw;
+    }
+    .line_tab .tab img {
+        float: left;
+        width: 23vw;
+        height: 23vw;
+        margin: 10px;
+        overflow: hidden;
+    }
+    .line_tab .contact .star_right {
+        position: absolute;
+        animation:product_ani 1s infinite;
+        width: 28%;
+        margin-top: -15vw;
+        margin-left: 52vw;
+    }
+
+
+    /* 섹션 컨텍 */
+
+    .store {
+        height: 70vh;
+    }
+    .store h1 {
+        font-size: 10vw;
+        margin-top: 90vw;
+    }
+    .store .contact .heart_right img {
+        width: 250px;
+    }
+    
+    .store .contact .heart_right {
+        width: 38%;
+        margin-top: 40vw;
+        margin-left: 55vw;
+    }
+    .content h2 {
+        font-size: 8vw;
+    }
+    .good-job .fa-thumbs-o-up {
+         font-size: 13vw;
+    }
+    .content p {
+        font-size: 3.5vw;
+    }
+    .content .buttons .renewal_btn {
+        font-size: 3.5vw;
+    }
+    .good-job h2 {
+        margin-top: 6vw;
+    }
+    .modal {
+    left: 91%;
     }
 }

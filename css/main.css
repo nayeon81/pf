@@ -1363,6 +1363,11 @@ a.btn {
 
 /* 모바일 : max-width:360px */
 @media screen and (max-width:360px){
+
+    .visual .product img {
+        margin-top: 10vw;
+    }
+
     
     /* 섹션 프로필 */
 
@@ -1375,6 +1380,9 @@ a.btn {
     }
     .banner .contents .skill {
         margin-top: 3vw;
+    }
+    .visual .product .product_img {
+        margin-top: -79vw;
     }
 
 
@@ -1471,6 +1479,16 @@ a.btn {
 /* 모바일 : max-width:390px */
 @media screen and (max-width:390px){
     
+
+    /* .banner .contents .school {
+        background-color: rgba(255, 255, 255, 0.616);
+        padding: 2vw 2vw;
+        height: 20%;
+    }
+    .banner .contents .license {
+        background-color: rgba(255, 255, 255, 0.616);
+        padding: 2vw 2vw;
+    } */
    
     /* 섹션 디자인 */
 
